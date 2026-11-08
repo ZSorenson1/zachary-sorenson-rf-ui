@@ -1,0 +1,53 @@
+:root {
+  --rf-brand-color-primary: #5c00dc;
+  --rf-brand-color-primary-tint: rgba(92, 0, 220, 0.08);
+  --rf-brand-color-pink: #ed1a5d;
+  --rf-brand-color-surface: #fff;
+  --rf-brand-color-border: #cbc6de;
+  --rf-brand-color-text-body: #393551;
+  --rf-color-text-header: #222;
+  --rf-color-text: #444;
+  --rf-color-neutral: #767676;
+  --rf-color-muted: #777;
+  --rf-color-search-bg: #f5f5f5;
+  --rf-font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--rf-brand-color-surface);
+  color: var(--rf-color-text);
+  font-family: var(--rf-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+[hidden] {
+  display: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rf-brand-color-primary);
+  outline-offset: 2px;
+}

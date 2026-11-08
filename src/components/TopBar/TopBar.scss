@@ -1,0 +1,48 @@
+.top-bar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid var(--rf-brand-color-border);
+    background: var(--rf-brand-color-surface);
+
+    svg {
+        display: block;
+        flex-shrink: 0;
+    }
+}
+
+.top-bar-menu {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    background: var(--rf-brand-color-surface);
+    color: var(--rf-color-neutral);
+    cursor: pointer;
+
+    &:hover {
+        background: var(--rf-color-search-bg);
+    }
+
+    &[aria-expanded='true'] {
+        background: var(--rf-brand-color-primary-tint);
+        color: var(--rf-brand-color-primary);
+    }
+}
+
+.top-bar-title {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--rf-color-text-header);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
