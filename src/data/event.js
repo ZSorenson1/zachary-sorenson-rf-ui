@@ -1,4 +1,4 @@
-import { AddCircleIcon, ArrowIcon, AttendeeIcon, LaptopIcon } from 'assets';
+import { AddCircleIcon, ArrowIcon, AttendeeIcon, LaptopIcon } from '../assets';
 
 export const event = {
     name: 'RainFocus Summit',

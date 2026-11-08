@@ -1,4 +1,4 @@
-import { MenuIcon, RfLogo } from 'assets';
+import { MenuIcon, RfLogo } from '../../assets';
 import './TopBar.scss';
 
 const TopBar = ({ title, navOpen, onMenuClick, menuButtonRef }) => (

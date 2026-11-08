@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
-import { RfLogo, SearchSmallIcon, eventLogoThumb } from 'assets';
+import { RfLogo, SearchSmallIcon, eventLogoThumb } from '../../assets';
 import { Link } from 'react-router';
-import { event, navItems } from 'data/event';
+import { event, navItems } from '../../data/event';
 import './SideBar.scss';
 
 const SideBar = ({ open, onClose, isMobile }) => {

@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router';
-import 'App.scss';
-import TopBar from 'components/TopBar/TopBar';
-import SideBar from 'components/SideBar/SideBar';
-import EventHeader from 'components/EventHeader/EventHeader';
-import Attendees from 'views/Attendees';
-import Guide from 'views/Guide';
-import Content from 'views/Content';
-import Exhibitors from 'views/Exhibitors';
-import { event } from 'data/event';
+import './App.scss';
+import TopBar from './components/TopBar/TopBar';
+import SideBar from './components/SideBar/SideBar';
+import EventHeader from './components/EventHeader/EventHeader';
+import Attendees from './views/Attendees';
+import Guide from './views/Guide';
+import Content from './views/Content';
+import Exhibitors from './views/Exhibitors';
+import { event } from './data/event';
 
 function App() {
     const [navOpen, setNavOpen] = useState(false);

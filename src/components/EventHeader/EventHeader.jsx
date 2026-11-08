@@ -1,4 +1,4 @@
-import { eventLogo } from 'assets';
+import { eventLogo } from '../../assets';
 import './EventHeader.scss';
 
 const EventHeader = ({ event }) => (
